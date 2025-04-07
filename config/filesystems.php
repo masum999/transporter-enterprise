@@ -2,6 +2,13 @@
 
 return [
 
+    'company-documents' => [
+                            'driver' => 'local',
+                            'root' => storage_path('app/company-documents'),
+                            'url' => env('APP_URL').'/storage/company-documents',
+                            'visibility' => 'private',
+                            ],
+
     /*
     |--------------------------------------------------------------------------
     | Default Filesystem Disk
